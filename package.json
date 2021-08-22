@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-none",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Test whether all elements in a collection are falsy.",
   "license": "Apache-2.0",
   "author": {
