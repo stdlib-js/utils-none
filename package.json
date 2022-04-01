@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/utils-none",
+  "version": "0.0.0",
+  "description": "Test whether all elements in a collection are falsy.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-none.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "test",
+    "none",
+    "all",
+    "every",
+    "array.every",
+    "iterate",
+    "collection",
+    "array-like",
+    "validate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
