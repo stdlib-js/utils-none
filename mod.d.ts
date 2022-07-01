@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,27 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/object';
 
 /**
-* Test whether all elements in a collection are falsy.
+* Tests whether all elements in a collection are falsy.
 *
-* @module @stdlib/utils-none
+* ## Notes
+*
+* -   The function immediately returns upon encountering a truthy value.
+* -   If provided an empty collection, the function returns `true`.
+*
+* @param collection - input collection
+* @returns boolean indicating whether all elements are falsy
 *
 * @example
-* var none = require( '@stdlib/utils-none' );
-*
 * var arr = [ 0, 0, 0, 0, 0 ];
 *
 * var bool = none( arr );
 * // returns true
 */
-
-// MODULES //
-
-var none = require( './main.js' );
+declare function none( collection: Collection ): boolean;
 
 
 // EXPORTS //
 
-module.exports = none;
+export = none;
