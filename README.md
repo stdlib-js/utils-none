@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@deno/mod.js';
+import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@v0.1.0-deno/mod.js';
 ```
 
 #### none( collection )
@@ -100,7 +100,7 @@ var bool = none( [] );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@deno/mod.js';
+import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@v0.1.0-deno/mod.js';
 
 var bool;
 var arr;
