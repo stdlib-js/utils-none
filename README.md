@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-none/tags). For example,
+
+```javascript
 import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@v0.2.1-deno/mod.js';
 ```
 
@@ -100,7 +105,7 @@ var bool = none( [] );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@v0.2.1-deno/mod.js';
+import none from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none@deno/mod.js';
 
 var bool;
 var arr;
