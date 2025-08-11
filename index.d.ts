@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,23 +16,22 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var isCollection = require( '@stdlib/assert-is-collection' );
-var base = require( '@stdlib/array-base-none' );
-var format = require( '@stdlib/error-tools-fmtprodmsg' );
-
-
-// MAIN //
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Tests whether all elements in a collection are falsy.
 *
-* @param {Collection} collection - input collection
-* @throws {TypeError} must provide a collection
-* @returns {boolean} boolean indicating whether all elements are falsy
+* ## Notes
+*
+* -   The function immediately returns upon encountering a truthy value.
+* -   If provided an empty collection, the function returns `true`.
+*
+* @param collection - input collection
+* @returns boolean indicating whether all elements are falsy
 *
 * @example
 * var arr = [ 0, 0, 0, 0, 0 ];
@@ -40,14 +39,9 @@ var format = require( '@stdlib/error-tools-fmtprodmsg' );
 * var bool = none( arr );
 * // returns true
 */
-function none( collection ) {
-	if ( !isCollection( collection ) ) {
-		throw new TypeError( format( '1W1Ag', collection ) );
-	}
-	return base( collection );
-}
+declare function none( collection: Collection ): boolean;
 
 
 // EXPORTS //
 
-module.exports = none;
+export = none;
